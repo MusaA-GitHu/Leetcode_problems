@@ -1,0 +1,14 @@
+# solved by MA 
+class Solution:
+    def removeElement(self, nums: List[int], val: int) -> int:
+        k=0
+        for I in range(len(nums)):
+            if nums[I]!=val:
+                nums[k]=nums[I]
+                k+=1
+                
+                
+            
+        return k
+    
+        
